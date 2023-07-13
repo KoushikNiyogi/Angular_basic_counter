@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 's3_day3_angular_basic';
+  title = 'Hello, World!!';
 }

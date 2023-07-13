@@ -1,0 +1,8 @@
+<div>
+    <h1>Counter App</h1>
+    <h3>{{counter}}</h3>
+    <div>
+        <button (click)="increment()">Add</button>
+        <button (click)="decrement()" [disabled] = "counter <= 0">Substract</button>
+    </div>
+</div>
